@@ -2,19 +2,25 @@ body {
   margin: 0;
   padding: 0;
 }
-body h1 {
-  color: blue;
-  margin: 0 auto;
-}
 body .container {
   width: 70%;
-  background-color: rgb(138, 237, 237);
+  background-color: rgb(234, 246, 246);
+  margin: 0 auto;
 }
-body .container table th {
-  background-color: rgb(28, 103, 103);
+body .container h1 {
+  color: blue;
+  text-align: center;
 }
-body .container table td:nth-childe(2n) {
-  background-color: rgb(28, 103, 103);
+body .container table {
+  width: 100%;
+}
+body .container table thead {
+  height: 2vw;
+  background-color: rgb(144, 201, 201);
+}
+body .container table tr:nth-child(2n) {
+  height: 2vw;
+  background-color: rgb(31, 229, 189);
 }
 
 /*# sourceMappingURL=style.css.map */
